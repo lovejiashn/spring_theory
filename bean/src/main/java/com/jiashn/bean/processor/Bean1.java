@@ -29,6 +29,7 @@ public class Bean1 {
         this.java_home = java_home;
     }
 
+    @Autowired
     private Bean3 bean3;
 
     @Resource
