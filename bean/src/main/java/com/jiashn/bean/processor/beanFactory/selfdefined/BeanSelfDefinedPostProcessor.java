@@ -22,7 +22,7 @@ import java.util.Set;
  * @date 2023-03-09 5:41
  * @description
  */
-public class SelfDefinedBeanPostProcessor implements BeanDefinitionRegistryPostProcessor {
+public class BeanSelfDefinedPostProcessor implements BeanDefinitionRegistryPostProcessor {
     @SneakyThrows
     @Override
     public void postProcessBeanDefinitionRegistry(BeanDefinitionRegistry registry) throws BeansException {
