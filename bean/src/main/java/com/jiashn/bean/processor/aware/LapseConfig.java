@@ -14,7 +14,7 @@ import javax.annotation.PostConstruct;
  * @date 2023-03-10 5:32
  * @description 失效的配置
  */
-@Configuration
+//@Configuration
 @Slf4j
 public class LapseConfig {
 
