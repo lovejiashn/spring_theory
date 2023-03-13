@@ -20,9 +20,9 @@ public class BeanApplication {
         return new BeanInit();
     }*/
 
-    @Bean(destroyMethod = "destroyMethod")
+    /*@Bean(destroyMethod = "destroyMethod")
     public BeanDestroy beanDestroy(){
         return new BeanDestroy();
-    }
+    }*/
 
 }
