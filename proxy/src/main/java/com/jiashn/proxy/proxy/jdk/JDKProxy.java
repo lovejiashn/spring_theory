@@ -1,4 +1,4 @@
-package com.jiashn.proxy.proxy;
+package com.jiashn.proxy.proxy.jdk;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -14,7 +14,7 @@ public class JDKProxy {
     interface Foo{
         void foo();
     };
-    static class Target implements Foo{
+    static final class Target implements Foo{
 
         @Override
         public void foo() {
