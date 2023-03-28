@@ -23,7 +23,8 @@ public class TestCglibProxyPrinciple {
             @Override
             public Object intercept(Object p, Method method, Object[] args, MethodProxy methodProxy) throws Throwable {
                 log.info("增强,,,,,,");
-                return method.invoke(target,args);
+               // return methodProxy.invoke(target,args);
+                return methodProxy.invokeSuper(p,args);
             }
         });
         principle.save();
